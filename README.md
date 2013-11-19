@@ -13,6 +13,6 @@ Rules of JumpingCubes
 - A player wins when all the squares are the player's color
 
 Running JumpingCubes
--See README document for additional details
--Compile java files using "make" command
--Then type "java jump61.Main" to begin the game
+- See README document for additional details
+- Compile java files using "make" command
+- Then type "java jump61.Main" to begin the game
