@@ -75,7 +75,7 @@ class ConstantBoard extends Board {
         return _board.hashCode();
     }
 
-    /** Returns getter method for board. */
+    /** Returns getter method for the current board. */
     public Board getBoard() {
         return _board;
     }

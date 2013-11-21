@@ -1,6 +1,6 @@
 package jump61;
 
-/** An automated Player.
+/** An automated Player for JumpingCubes.
  *  @author Brian Liou
  */
 class AI extends Player {
