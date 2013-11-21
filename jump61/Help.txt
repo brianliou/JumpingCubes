@@ -1,0 +1,26 @@
+Textual Commands for JumpingCubes
+
+clear : Ends the current game and clears the board to its initial configuration
+
+start : Starts the game
+
+quit : Ends the game and exits the program
+
+auto (color) : Stops the current game and causes player (color) to be an automated player
+	           (RED/red/BLUE/blue)
+
+manual (color) : Stops the current game and causes player (color) to be a manual player
+				 (RED/red/BLUE/blue)
+
+size (N) : Stops the current game, clears the board to its initial configuration, and sets
+		   the size of the board to N squares. Initially N = 6.
+
+move (N) : Stop any current game, set the number of the next move N. Initially, the number of
+           the next move is 1.
+
+set (R) (C) (N) (P) : Stop any current game, put N spots at row R and column N for color P. P
+					  is either 'r' or 'b'.
+
+dump : Prints out the board with all the current moves. "--" means neutral square.
+
+help : Prints out a brief summary of the commands
