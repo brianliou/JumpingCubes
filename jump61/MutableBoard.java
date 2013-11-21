@@ -236,7 +236,9 @@ class MutableBoard extends Board {
     }
 
     /** Do all jumping on this board, assuming that initially, S is the only
-     *  square that might be over-full. */
+     *  square that might be over-full. To prevent infinite jumping, first
+     *  decrease the number of spots a square has neighbors and then add a
+     *  spot to each of his neighbors. */
     private void jump(int S) {
         if (getWinner() != null) {
             return;
