@@ -1,8 +1,6 @@
 JumpingCubes
 ============
 
-Board game I made for a data structures course at UC Berkeley
-
 Rules of JumpingCubes
 - A game board consists of N x N squares (1 to N)
 - At anytime a square can be either red, white, or blue AND have some number of spots
